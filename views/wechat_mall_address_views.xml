@@ -37,12 +37,12 @@
                                     <field name="province_id"
                                            options="{'no_open': True, 'no_create': True}"
                                            class="oe_inline"/>
-                                    <field name="city_domain_ids" invisible="1"/>
+                                    <field name="city_domain_ids" invisible="True"/>
                                     <field name="city_id"
                                            attrs="{'invisible': [('city_domain_ids', '=', [])]}"
                                            options="{'no_open': True, 'no_create': True}"
                                            class="oe_inline"/>
-                                    <field name="district_domain_ids" invisible="1"/>
+                                    <field name="district_domain_ids" invisible="True"/>
                                     <field name="district_id"
                                            attrs="{'invisible': [('district_domain_ids', '=', [])]}"
                                            options="{'no_open': True, 'no_create': True}"

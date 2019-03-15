@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <data>
-
     <record id="wechat_mall_order_view_tree" model="ir.ui.view">
         <field name="name">wechat_mall.order.view_tree</field>
         <field name="model">wechat_mall.order</field>
@@ -10,12 +9,12 @@
                 <field name="wechat_user_id"/>
                 <field name="order_num"/>
                 <field name="number_goods"/>
-                <field name="status" srting="状态"/>
+                <field name="status"/>
                 <field name="goods_price"/>
                 <field name="logistics_price"/>
                 <field name="total"/>
-                <field name="create_date" string="下单时间"/>
-                <field name="write_date" string="最后更新"/>
+                <field name="create_date"/>
+                <field name="write_date"/>
             </tree>
         </field>
     </record>

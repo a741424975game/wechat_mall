@@ -8,12 +8,12 @@
             <field name="type">tree</field>
             <field name="arch" type="xml">
                 <tree string="商品分类">
-                    <field name="key" invisible="1"/>
-                    <field name="level" invisible="1"/>
+                    <field name="key" invisible="True"/>
+                    <field name="level" invisible="True"/>
                     <field name="name"/>
-                    <field name="pid" invisible="1"/>
-                    <field name="category_type" invisible="1"/>
-                    <field name="icon" invisible="1"/>
+                    <field name="pid" invisible="True"/>
+                    <field name="category_type" invisible="True"/>
+                    <field name="icon" invisible="True"/>
                     <field name="is_use"/>
                     <field name="sort"/>
                     <field name="goods_ids"/>
@@ -28,14 +28,14 @@
                 <form string="商品分类" version="7.0" duplicate="false">
                     <sheet>
                         <group>
-                            <field name="level" invisible="1"/>
+                            <field name="level" invisible="True"/>
                             <field name="name"/>
-                            <field name="pid" invisible="1"
+                            <field name="pid" invisible="True"
                                    domain="['|', ('pid', '!=', id), ('pid', '=', False), ('id', '!=', id), ('create_uid', '=', uid)]"/>
                             <field name="is_use"/>
                             <field name="sort"/>
-                            <field name="key" invisible="1"/>
-                            <field name="category_type" invisible="1"/>
+                            <field name="key" invisible="True"/>
+                            <field name="category_type" invisible="True"/>
                             <field name="icon" domain="[('create_uid', '=', uid)]" invisible=""/>
                             <field name="goods_ids"/>
                         </group>

@@ -15,7 +15,7 @@
                     </sheet>
                     <footer>
                         <button string="确定" name="apply" type="object" class="oe_highlight"/>
-                        <button string="放弃" class="oe_link" special="cancel" readonly="0"/>
+                        <button string="放弃" class="oe_link" special="cancel" readonly="false"/>
                     </footer>
                 </form>
             </field>

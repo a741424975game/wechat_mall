@@ -7,7 +7,7 @@
             <field name="model">wechat_mall.address</field>
             <field name="type">tree</field>
             <field name="arch" type="xml">
-                <tree string="用户收货地址" create="0" delete="0">
+                <tree string="用户收货地址" create="false" delete="false">
                     <field name="id" string="编号"/>
                     <field name="wechat_user_id"/>
                     <field name="is_default"/>
@@ -29,7 +29,7 @@
             <field name="model">wechat_mall.address</field>
             <field name="type">form</field>
             <field name="arch" type="xml">
-                <form string="用户收货地址" version="7.0" create="false" delete="0" edit="false" save="false" cancel="false" duplicate="0">
+                <form string="用户收货地址" version="7.0" create="false" delete="false" edit="false" save="false" cancel="false" duplicate="false">
                     <sheet>
                         <group>
                             <group colspan="2" string="所在地">

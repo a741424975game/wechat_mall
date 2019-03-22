@@ -65,8 +65,5 @@
             <field name="domain">[('create_uid', '=', uid)]</field>
         </record>
 
-        <menuitem action="wechat_mall_subshop_action_90" id="wechat_mall_subshop_menuitem_78" name="商铺"
-                  parent="parent_menu_wechat_mall" sequence="1" groups="base.group_system"/>
-
     </data>
 </odoo>

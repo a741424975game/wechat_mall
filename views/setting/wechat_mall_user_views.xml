@@ -54,8 +54,5 @@
 
         </record>
 
-        <menuitem action="wechat_mall_user_action_96" id="wechat_mall_user_menuitem_93" name="微信用户"
-                  parent="parent_menu_wechat_mall" sequence="7"/>
-
     </data>
 </openerp>

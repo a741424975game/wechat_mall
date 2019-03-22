@@ -120,7 +120,4 @@
         </field>
     </record>
 
-    <menuitem action="wechat_mall_order_action_134" id="wechat_mall_order_menuitem_118" name="订单"
-              parent="parent_menu_wechat_mall" sequence="9"/>
-
 </data>

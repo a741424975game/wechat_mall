@@ -71,8 +71,5 @@
             <field name="domain">[('create_uid', '=', uid)]</field>
         </record>
 
-        <menuitem action="wechat_mall_address_action_98" id="wechat_mall_address_menuitem_95" name="用户收货地址"
-                  parent="parent_menu_wechat_mall" sequence="8"/>
-
     </data>
 </openerp>

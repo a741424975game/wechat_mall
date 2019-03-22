@@ -191,10 +191,5 @@
             <field name="domain">[('create_uid', '=', uid)]</field>
         </record>
 
-        <menuitem action="wechat_mall_goods_action_87" id="wechat_mall_goods_menuitem_75" name="商品"
-                  parent="parent_menu_wechat_mall" sequence="3" groups="wechat_mall.group_wechat_mall_user"/>
-        <menuitem action="wechat_mall_goods_property_action_1" id="wechat_mall_goods_property_menuitem_1" name="商品规格"
-                  parent="parent_menu_wechat_mall" sequence="4" groups="wechat_mall.group_wechat_mall_user"/>
-
     </data>
 </odoo>
